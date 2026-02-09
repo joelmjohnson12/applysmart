@@ -1,0 +1,49 @@
+use std::fs;
+use std::path::Path;
+use tera::{Tera, Context};
+use serde::{Deserialize};
+use std::error::Error;
+
+#[derive(Debug, Deserialize)]
+struct Applicant {
+    name: String,
+    email: String,
+    phone: String,
+    skills: Vec<String>,
+    experience: Vec<String>,
+    education: Vec<String>,
+    role: String,
+    company: String,
+}
+
+fn main() -> Result<(), Box<dyn Error>> {
+    // Load YAML input
+    let input_file = "example.yaml";
+    let data = fs::read_to_string(input_file)?;
+    let applicant: Applicant = serde_yaml::from_str(&data)?;
+
+    // Setup Tera templates
+    let tera = Tera::new("templates/*")?;
+    let mut context = Context::new();
+    context.insert("applicant", &applicant);
+
+    // Create output folder if it doesn't exist
+    let output_dir = Path::new("output");
+    if !output_dir.exists() {
+        fs::create_dir(output_dir)?;
+    }
+
+    // Generate CV
+    let cv = tera.render("cv_template.md", &context)?;
+    let cv_path = output_dir.join(format!("cv_{}.md", applicant.company));
+    fs::write(cv_path, cv)?;
+
+    // Generate Cover Letter
+    let cover_letter = tera.render("cover_letter_template.md", &context)?;
+    let cover_path = output_dir.join(format!("cover_letter_{}.md", applicant.company));
+    fs::write(cover_path, cover_letter)?;
+
+    println!("✅ CV and Cover Letter generated successfully!");
+
+    Ok(())
+}

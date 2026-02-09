@@ -1,0 +1,14 @@
+name: Joel M
+email: joel@example.com
+phone: "123-456-7890"
+skills:
+  - Rust programming
+  - Automation
+  - CLI tools
+experience:
+  - Built a job application automation tool
+  - Developed a website content generator
+education:
+  - BSc in Computer Science
+role: Backend Developer
+company: AcmeCorp
