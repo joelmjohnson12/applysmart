@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ApplySmart – Personal Automation Project</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #222;
+    }
+
+    header {
+      background: #1e293b;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    section {
+      padding: 30px;
+      margin: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #1e293b;
+      margin-top: 0;
+    }
+
+    ul {
+      margin-left: 20px;
+    }
+
+    footer {
+      background: #1e293b;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+    code {
+      background: #eee;
+      padding: 4px 6px;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>ApplySmart</h1>
+    <p>A Rust-Based Personal Automation Tool</p>
+  </header>
+
+  <section>
+    <h2>1. Project Overview</h2>
+    <p>
+      ApplySmart is a personal automation project developed using the Rust programming language.
+      The main goal of this project is to automate the repetitive and time-consuming task of creating
+      customized CVs and cover letters for job applications. Instead of manually editing documents
+      for each job role, ApplySmart uses predefined templates and user data to generate professional
+      documents automatically.
+    </p>
+    <p>
+      This project demonstrates how automation can significantly improve productivity by reducing
+      human effort, minimizing errors, and ensuring consistency across multiple outputs.
+    </p>
+  </section>
+
+  <section>
+    <h2>2. Problem Statement</h2>
+    <p>
+      Applying for jobs usually requires tailoring a CV and cover letter for different companies and roles.
+      This process is repetitive, error-prone, and time-consuming, especially for students and fresh graduates
+      applying to many positions.
+    </p>
+    <p>
+      The problem addressed by ApplySmart is:
+    </p>
+    <ul>
+      <li>Manual editing of CVs and cover letters for each job</li>
+      <li>Inconsistent formatting across documents</li>
+      <li>Wasted time on repetitive tasks</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Solution Approach</h2>
+    <p>
+      ApplySmart solves this problem by using a template-based automation approach. The user provides:
+    </p>
+    <ul>
+      <li>A CV template (Markdown format)</li>
+      <li>A cover letter template (Markdown format)</li>
+      <li>User details such as name, email, and skills</li>
+    </ul>
+    <p>
+      The application processes these inputs and generates final CV and cover letter documents automatically.
+      This ensures speed, accuracy, and professional formatting.
+    </p>
+  </section>
+
+  <section>
+    <h2>4. Technologies Used</h2>
+    <ul>
+      <li><strong>Rust:</strong> Core programming language used for performance, safety, and reliability</li>
+      <li><strong>Markdown:</strong> Used for CV and cover letter templates</li>
+      <li><strong>HTML & CSS:</strong> Used to create this project website</li>
+      <li><strong>Git & GitHub:</strong> Version control and source code hosting</li>
+      <li><strong>Linux & Windows:</strong> Cross-platform binary support</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Project Structure</h2>
+    <p>The project follows a clean and organized structure:</p>
+    <ul>
+      <li><code>src/</code> – Rust source code</li>
+      <li><code>templates/</code> – CV and cover letter templates</li>
+      <li><code>website/</code> – HTML and CSS files for project presentation</li>
+      <li><code>Cargo.toml</code> – Rust project configuration</li>
+      <li><code>applysmart</code> – Linux compiled binary</li>
+      <li><code>applysmart.exe</code> – Windows compiled binary</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>6. Automation Workflow</h2>
+    <p>
+      The automation process in ApplySmart works as follows:
+    </p>
+    <ol>
+      <li>User runs the ApplySmart binary</li>
+      <li>The program loads the CV and cover letter templates</li>
+      <li>User data is injected into the templates</li>
+      <li>Final documents are generated and saved automatically</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>7. Key Features</h2>
+    <ul>
+      <li>Fast document generation</li>
+      <li>Cross-platform support (Linux and Windows)</li>
+      <li>Reusable and customizable templates</li>
+      <li>Simple command-line interface</li>
+      <li>Clean and maintainable Rust code</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>8. Learning Outcomes</h2>
+    <p>
+      Through this project, I gained hands-on experience in:
+    </p>
+    <ul>
+      <li>Rust project structure and compilation</li>
+      <li>Building real-world automation tools</li>
+      <li>Handling files and templates programmatically</li>
+      <li>Cross-platform software development</li>
+      <li>Version control using Git and GitHub</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Future Enhancements</h2>
+    <p>
+      In the future, ApplySmart can be extended with:
+    </p>
+    <ul>
+      <li>PDF export support</li>
+      <li>Interactive user input via CLI flags</li>
+      <li>Web-based interface</li>
+      <li>Multiple template themes</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>10. Conclusion</h2>
+    <p>
+      ApplySmart is a practical and effective personal automation project that demonstrates how software
+      engineering concepts can be applied to solve real-world problems. By automating repetitive tasks,
+      this tool saves time, improves efficiency, and showcases the power of Rust in building reliable
+      command-line applications.
+    </p>
+  </section>
+
+  <footer>
+    <p>ApplySmart © 2026 | Personal Automation Project</p>
+  </footer>
+
+</body>
+
+</html>
