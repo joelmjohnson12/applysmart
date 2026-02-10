@@ -1,0 +1,11 @@
+/mnt/c/RUST project DIT/applysmart/target/release/deps/parse_zoneinfo-ed4f068b2bab9f85.d: /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/lib.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/line.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/structure.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/table.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/transitions.rs
+
+/mnt/c/RUST project DIT/applysmart/target/release/deps/libparse_zoneinfo-ed4f068b2bab9f85.rlib: /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/lib.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/line.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/structure.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/table.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/transitions.rs
+
+/mnt/c/RUST project DIT/applysmart/target/release/deps/libparse_zoneinfo-ed4f068b2bab9f85.rmeta: /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/lib.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/line.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/structure.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/table.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/transitions.rs
+
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/lib.rs:
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/line.rs:
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/structure.rs:
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/table.rs:
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/parse-zoneinfo-0.3.1/src/transitions.rs:

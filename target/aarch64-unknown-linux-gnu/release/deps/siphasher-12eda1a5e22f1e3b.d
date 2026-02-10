@@ -1,0 +1,11 @@
+/mnt/c/RUST project DIT/applysmart/target/aarch64-unknown-linux-gnu/release/deps/siphasher-12eda1a5e22f1e3b.d: /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/lib.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/common.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/sip.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/sip128.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/../README.md
+
+/mnt/c/RUST project DIT/applysmart/target/aarch64-unknown-linux-gnu/release/deps/libsiphasher-12eda1a5e22f1e3b.rlib: /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/lib.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/common.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/sip.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/sip128.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/../README.md
+
+/mnt/c/RUST project DIT/applysmart/target/aarch64-unknown-linux-gnu/release/deps/libsiphasher-12eda1a5e22f1e3b.rmeta: /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/lib.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/common.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/sip.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/sip128.rs /home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/../README.md
+
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/lib.rs:
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/common.rs:
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/sip.rs:
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/sip128.rs:
+/home/joelm/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/siphasher-1.0.2/src/../README.md:
